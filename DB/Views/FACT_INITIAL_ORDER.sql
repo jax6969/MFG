@@ -1,6 +1,6 @@
 create view [dbo].FACT_INITIAL_ORDER
 as
-select  x._Period        as DT
+select  x._Period        as PERIOD
       , x._Fld13469RRef  as ID_BRAND -- —сылка на бренд
       , x._Fld13471RRef  as ID_CONTRACTOR -- —сылка
       , x._Fld13472RRef  as ID_SKU -- —сылка на SKU
