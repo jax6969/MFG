@@ -1,4 +1,4 @@
-create view FACT_PLAN_BI_EMPLOYEE_COUNT
+create view [dbo].[FACT_PLAN_BI_EMPLOYEE_COUNT]
 as
 select  p._Fld25022       as START_DT -- Дата начала планового периода
       , p._Fld25023       as END_DT -- Дата окончания планового периода

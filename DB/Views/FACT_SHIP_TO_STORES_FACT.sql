@@ -1,6 +1,6 @@
-create view FACT_SHIP_TO_STORES_FACT
+create view [dbo].[FACT_SHIP_TO_STORES_FACT]
 as
-select x._Period,  -- Период
+select x._Period as PERIOD,  -- Период
 	x._Fld11316RRef as ID_SKU, -- Ссылка на SKU
 	x._Fld11319RRef as ID_SIZE,	--Справочник.Размеры
 	x._Fld11318RRef as ID_HEIGHT,	--Справочник.Роста

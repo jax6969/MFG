@@ -5,7 +5,7 @@ select  lp._Date_Time        as DT
       , lp._Number           as [NUMBER] -- Номер записи
       , lp._Version          as [VERSION] -- Версия записи
       , lp._Fld23987RRef     as ID_BRAND -- Ссылка на бренд
-      , lpt._Fld24059_RRRef  as ID_STORE -- Ссылка на магазин
+      , lpt._Fld24059_RRRef  as ID_STOCK -- Ссылка на магазин
       , lpt._Fld24076        as AMT_TOTAL_RUB -- Итоговая сумма
       , lpt._Fld24063        as AMT1 -- Сумма по месяцам
       , lpt._Fld24064        as AMT2
