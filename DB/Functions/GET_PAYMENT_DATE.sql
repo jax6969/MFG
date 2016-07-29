@@ -5,7 +5,7 @@ create function [dbo].[get_payment_date]
 )
 returns date
 begin
-	declare @payment_month date = getdate();
+	declare @payment_month date = dateadd(day,5,getdate());
 	declare @month_last_day int;
 	
 	if @payment_kind = 'пред.'
